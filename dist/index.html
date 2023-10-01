@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My first three.js app</title>
+    <style>
+        body { margin: 0; display: flex; justify-content: center; align-items: center; height: 100vh; position: relative; }
+        .overlay { position: absolute; background: rgba(255, 255, 255, 0.7); padding: 10px; border-radius: 5px; display: none; z-index: 1; }
+        canvas { border: 2px solid black; }
+        button { font-size: 16px; position: absolute; }
+        #button1 { top: 100px; left: 200px; }
+        #button2 { top: 100px; right: 200px; }
+        #button3 { bottom: 10px; left: 180px; }
+        #button4 { bottom: 10px; right: 180px; }
+        #canvas { max-width: 80vw; max-height: 70vh; }
+    </style>
+
+    
+  <script type="module" crossorigin src="/assets/index-7fe57754.js"></script>
+  <link rel="stylesheet" href="/assets/index-40a5717d.css">
+</head>
+<body>
+
+<div>
+    <h1>ThreeJS</h1>
+
+    <div id="canvas"></div>
+    <div id="explanation" class="overlay"></div>
+
+    <!-- Buttons -->
+    <button id="button1">Move up (1)</button>
+    <button id="button2"> Move Forward (2)</button>
+    <button id="button3">Move To The Left (3)</button>
+    <button id="button4">Move to the Right (4)</button>
+
+</div>
+
+
+
+</body>
+</html>
